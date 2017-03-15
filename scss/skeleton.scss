@@ -1,0 +1,78 @@
+/*
+* Skeleton V2.0.4
+* Copyright 2014, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 12/9/2014
+* Sass Version by Seth Coelen https://github.com/whatsnewsaes
+*/
+
+/* Base files. */
+@import "base/normalize";
+@import "base/variables";
+@import "base/functions";
+@import "base/base-styles";
+@import "base/utils";
+@import "base/typography";
+
+/* Modules */
+@import "modules/grid";
+@import "modules/buttons";
+@import "modules/forms";
+@import "modules/lists";
+@import "modules/code";
+@import "modules/tables";
+@import "modules/spacing";
+@import "modules/media-queries";
+
+/* Custom Styles */
+
+.container {
+    padding: 5rem 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+#footer {
+    color: $medium-grey;
+}
+
+#footer a {
+    color: $link-color;
+    text-decoration: none;
+}
+
+#footer a:hover {
+    border-bottom: 1px solid $link-color;
+}
+
+td form {
+    margin: 0;
+}
+
+td.restaurant_name {
+    font-weight: bold;
+}
+
+td input[type=submit], td button {
+    vertical-align: middle;
+    margin: 0;
+}
+
+.veto {
+    color: #999;
+}
+
+#reset {
+    position: fixed;
+    top: 5rem;
+    right: 5rem;
+    background-color: #eee;
+}
+
+#footer {
+    margin-top: 15px;
+}
